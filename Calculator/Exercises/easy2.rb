@@ -1,5 +1,5 @@
 def is_odd(number)
-  number.abs % 2 == 1
+  number % 2 == 1
 end
 
 puts is_odd(6)
